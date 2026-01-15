@@ -1,0 +1,13 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <input
+      type="text"
+      id="message"
+      formControlName="message"
+      class="form-control"
+      placeholder="Digite sua mensagem"
+      required />
+  </div>
+
+  <button type="submit" class="btn-submit" [disabled]="!form.valid">Enviar</button>
+</form>

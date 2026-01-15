@@ -1,0 +1,24 @@
+{
+  "name": "mf-lab",
+  "version": "1.0.0",
+  "description": "Module Federation Cross-Framework PoC",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "preview": "pnpm -r run preview"
+  },
+  "keywords": [
+    "module-federation",
+    "react",
+    "angular",
+    "vue",
+    "vite",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.5.4"
+  }
+}
