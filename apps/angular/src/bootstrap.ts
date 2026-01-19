@@ -1,8 +1,9 @@
+import 'zone.js';
 import { createApplication } from '@angular/platform-browser';
 import { createCustomElement } from '@angular/elements';
 import { FormComponent } from './app/form/form.component';
 
-// Registra o Web Component automaticamente
+// Registra o Web Component
 createApplication()
   .then((appRef) => {
     const formElement = createCustomElement(FormComponent, {

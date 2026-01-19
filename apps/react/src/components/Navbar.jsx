@@ -1,4 +1,4 @@
-export default function Navbar() {
+export function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
